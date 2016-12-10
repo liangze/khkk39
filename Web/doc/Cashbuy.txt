@@ -1,0 +1,10 @@
+﻿买家购买记录表
+CashbuyID //购买记录ID，是表的自增ID
+CashsellID//购买那个商品的ID，对应Cashsell表中的CashsellID
+UserID   //买家的ID
+Amount   //买家购买商品支付的金额
+Price  //买家所购买商品的单价
+BugNum //买家购买的数量
+BugDate  //买家购买日期
+SellUserID //卖家ID
+isBuy//支付类型

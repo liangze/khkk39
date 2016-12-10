@@ -1,0 +1,7 @@
+﻿买家购买生成的订单记录
+OrderID //订单ID，是表的自增ID
+CashsellID //对应表Cashbuy表中的CashsellID，也对应表Cashsell表中的CashsellID
+CashbuyID  //对应表Cashbuy表中的CashbuyID
+BUserID  //订单买家ID
+SUserID //订单卖家ID
+OrderCode//订单编号

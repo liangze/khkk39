@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lgk.BLL.tb_user">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BCYgAAEHAIiIAhAACKEIAQAFgAGAEAgAAAEEAAEJAAM=</HashCode>
+      <FileName>tb_user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.BonusOperationBLL">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAEwAAAABIAAAAIAACgCAgAAIwAAAAEAQCAAoAAAEAI=</HashCode>
+      <FileName>BonusOperationBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.Cashbuy">
+    <Position X="4.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAAACAAAQAAAAIAAAAAAEAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Cashbuy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.Cashcredit">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAIACAAAAAAAAIAAAAAAEAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Cashcredit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.Cashorder">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQYgAAAAAACAAAAAAAAIAAAAAAEAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Cashorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.Cashsell">
+    <Position X="4.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAAACAAAQAAAAIAAEAAAEAAAAAAAQAAAEAAAI=</HashCode>
+      <FileName>Cashsell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.ViewFind">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAIAAAAAAAAAAAAAAAAIAAAAQAAAAAEAAAA=</HashCode>
+      <FileName>ListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.RowView">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.gp_BusinessAmount">
+    <Position X="10.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACYgAAAAAICAAAAAAAAIAAAAAAEAEAAAAAAAAAEAAAI=</HashCode>
+      <FileName>gp_BusinessAmount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lgk.BLL.tb_globeParam">
+    <Position X="9.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACYgAAAAAICAAAAAAAAIAAAAAAEAEAAAAAAAAAEAAAI=</HashCode>
+      <FileName>tb_globeParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

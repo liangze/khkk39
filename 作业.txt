@@ -1,0 +1,6 @@
+proc_StockBuyAuto 自动买股,每5分钟运行一次
+
+[NN15080570]  每天23:35分运行
+作业执行顺序：
+proc_bonusPayOne  --发放
+--proc_StockBuyAuto --自动

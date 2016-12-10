@@ -1,0 +1,23 @@
+﻿佣金点数   AllBonusAccount
+注册点数   BonusAccount
+交易点数   Emoney
+现金币     StockMoney
+激活点数   GLmoney
+股权       StockAccount
+商城点数   ShopAccount
+夸克币     User011
+持币       User012
+存币       User013
+
+已挂买未交易的交易点数 User015
+
+奖金结算时扣税   User014
+
+
+LeftScore 左区总业绩
+LeftBalance 左区结余业绩
+LeftNewScore 左区新业绩
+
+RightScore 右区总业绩
+RightBalance 右区结余业绩
+RightNewScore 右区新业绩

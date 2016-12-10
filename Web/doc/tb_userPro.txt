@@ -1,0 +1,8 @@
+﻿ProMoney //缴纳注册点
+Pro003 //缴纳激活点
+Flag  //审核状态
+Remark//备注：是后台操作升级还是前台自助操作升级
+LastLevel//升级前级别
+EndLevel//升级后级别
+AddDate//提交升级申请的时间
+FlagDate//升级成功的时间
