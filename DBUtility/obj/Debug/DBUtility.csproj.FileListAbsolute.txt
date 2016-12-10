@@ -1,0 +1,9 @@
+D:\liang\DBUtility\bin\Debug\DBUtility.dll
+D:\liang\DBUtility\bin\Debug\DBUtility.pdb
+D:\liang\DBUtility\obj\Debug\DBUtility.dll
+D:\liang\DBUtility\obj\Debug\DBUtility.pdb
+D:\sz39\DBUtility\bin\Debug\DBUtility.dll
+D:\sz39\DBUtility\bin\Debug\DBUtility.pdb
+D:\sz39\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+D:\sz39\DBUtility\obj\Debug\DBUtility.dll
+D:\sz39\DBUtility\obj\Debug\DBUtility.pdb

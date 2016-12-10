@@ -1,0 +1,9 @@
+D:\liang\Model\bin\Debug\Model.dll
+D:\liang\Model\bin\Debug\Model.pdb
+D:\liang\Model\obj\Debug\Model.dll
+D:\liang\Model\obj\Debug\Model.pdb
+D:\sz39\Model\bin\Debug\Model.dll
+D:\sz39\Model\bin\Debug\Model.pdb
+D:\sz39\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\sz39\Model\obj\Debug\Model.dll
+D:\sz39\Model\obj\Debug\Model.pdb

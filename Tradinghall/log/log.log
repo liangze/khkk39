@@ -1,0 +1,144 @@
+
+
+
+
+出错时间2016/11/8 18:13:24
+错误的信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP.user_buykkb_aspx.__Render__control16(HtmlTextWriter __w, Control parameterContainer) 位置 d:\liang\Tradinghall\user\buykkb.aspx:行号 96
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Page.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误:   在 ASP.user_buykkb_aspx.__Render__control16(HtmlTextWriter __w, Control parameterContainer) 位置 d:\liang\Tradinghall\user\buykkb.aspx:行号 96
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Page.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误的描述:未将对象引用设置到对象的实例。
+出错的方法名:__Render__control16
+出错的类名:ASP.user_buykkb_aspx
+
+
+
+
+出错时间2016/11/8 18:23:07
+错误的信息:System.Exception: u.Price,IsNull(sum(u.BuyNum), 0) as BuyNum FROM (select TOP 5 *  FROM Cashsell  WHERE SaleNum>'0' and IsSell=0  AND (TypeID=2) ORDER BY SellDate desc ) u GROUP BY u.Price order by u.Price desc <br>',' 附近有语法错误。
+关键字 'ORDER' 附近有语法错误。
+   在 DataAccess.DbHelperSQL.Query(String SQLString) 位置 D:\liang\DBUtility\DbHelperSQL.cs:行号 573
+   在 lgk.DAL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder)
+   在 lgk.BLL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder) 位置 D:\liang\BLL\Cashsell.cs:行号 142
+   在 Tradinghall.user.kchart.BindData() 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 29
+   在 Tradinghall.user.kchart.Page_Load(Object sender, EventArgs e) 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 16
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误:   在 DataAccess.DbHelperSQL.Query(String SQLString) 位置 D:\liang\DBUtility\DbHelperSQL.cs:行号 573
+   在 lgk.DAL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder)
+   在 lgk.BLL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder) 位置 D:\liang\BLL\Cashsell.cs:行号 142
+   在 Tradinghall.user.kchart.BindData() 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 29
+   在 Tradinghall.user.kchart.Page_Load(Object sender, EventArgs e) 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 16
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误的描述:u.Price,IsNull(sum(u.BuyNum), 0) as BuyNum FROM (select TOP 5 *  FROM Cashsell  WHERE SaleNum>'0' and IsSell=0  AND (TypeID=2) ORDER BY SellDate desc ) u GROUP BY u.Price order by u.Price desc <br>',' 附近有语法错误。
+关键字 'ORDER' 附近有语法错误。
+出错的方法名:Query
+出错的类名:DataAccess.DbHelperSQL
+
+
+
+
+出错时间2016/11/8 18:24:21
+错误的信息:System.Exception: u.Price,IsNull(sum(u.Number), 0) as Number FROM (select TOP 5 *  FROM Cashsell  WHERE SaleNum>'0' and IsSell=0  AND (TypeID=2) ORDER BY SellDate desc ) u GROUP BY u.Price order by u.Price desc <br>',' 附近有语法错误。
+关键字 'ORDER' 附近有语法错误。
+   在 DataAccess.DbHelperSQL.Query(String SQLString) 位置 D:\liang\DBUtility\DbHelperSQL.cs:行号 573
+   在 lgk.DAL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder)
+   在 lgk.BLL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder) 位置 D:\liang\BLL\Cashsell.cs:行号 142
+   在 Tradinghall.user.kchart.BindData() 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 29
+   在 Tradinghall.user.kchart.Page_Load(Object sender, EventArgs e) 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 16
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误:   在 DataAccess.DbHelperSQL.Query(String SQLString) 位置 D:\liang\DBUtility\DbHelperSQL.cs:行号 573
+   在 lgk.DAL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder)
+   在 lgk.BLL.Cashsell.GetList1(Int32 Top, String strWhere, String filedOrder) 位置 D:\liang\BLL\Cashsell.cs:行号 142
+   在 Tradinghall.user.kchart.BindData() 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 29
+   在 Tradinghall.user.kchart.Page_Load(Object sender, EventArgs e) 位置 D:\liang\Tradinghall\user\kchart.aspx.cs:行号 16
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误的描述:u.Price,IsNull(sum(u.Number), 0) as Number FROM (select TOP 5 *  FROM Cashsell  WHERE SaleNum>'0' and IsSell=0  AND (TypeID=2) ORDER BY SellDate desc ) u GROUP BY u.Price order by u.Price desc <br>',' 附近有语法错误。
+关键字 'ORDER' 附近有语法错误。
+出错的方法名:Query
+出错的类名:DataAccess.DbHelperSQL
+
+
+
+
+出错时间2016/11/8 18:25:24
+错误的信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP.user_agencytransaction_aspx.__Render__control14(HtmlTextWriter __w, Control parameterContainer) 位置 d:\liang\Tradinghall\user\agencytransaction.aspx:行号 108
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Page.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误:   在 ASP.user_agencytransaction_aspx.__Render__control14(HtmlTextWriter __w, Control parameterContainer) 位置 d:\liang\Tradinghall\user\agencytransaction.aspx:行号 108
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   在 System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Page.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+错误的描述:未将对象引用设置到对象的实例。
+出错的方法名:__Render__control14
+出错的类名:ASP.user_agencytransaction_aspx
